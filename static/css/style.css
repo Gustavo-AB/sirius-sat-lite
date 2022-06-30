@@ -130,6 +130,7 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .texts .text-info {
@@ -138,7 +139,11 @@ main {
     flex-wrap: wrap;
     width: 100%;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.texts .text-info > p{
+    margin: 0.5rem 0;
 }
 
 .texts .text-info > p#price{
@@ -152,8 +157,8 @@ main {
 
 .texts .button{
     width: 50%;
-    margin: 2rem auto;
-    text-align: center;
+    margin: 2rem 0;
+    text-align: left;
 }
 
 .texts .button button{
@@ -191,12 +196,13 @@ main {
 .details{
     margin: 0;
     height: 8rem;
+    width: 100%;
 }
 
 .details .item-desc {
     margin: 0.5rem auto;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 .details .item-desc img{

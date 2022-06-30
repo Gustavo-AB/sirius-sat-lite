@@ -7,7 +7,17 @@
 }
 
 .box-req .info-req{
-    width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-req .box-top, .box-down{
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .info-req h2{
@@ -21,8 +31,7 @@
 }
 
 .info-req h4{
-    margin-top: 1rem;
-    color: #00475a;
+    color: #0D9DC4;
     font-size: 1.5rem;
 }
 
@@ -37,19 +46,21 @@
 .info-req ol li{
     margin-top: 0.5rem;
     font-size: 1rem;
-
 }
 
-
-.box-req .req-videos {
+.text-req {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-.req-videos .box-video {
+.video-req {
+    width: 50%;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 2rem 0;
+    justify-content: flex-end;
+}
+
+.video {
+    width: 35rem;
 }
