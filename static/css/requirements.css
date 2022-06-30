@@ -1,0 +1,55 @@
+.box-req {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    display: flex;
+    gap: 0 1rem;
+}
+
+.box-req .info-req{
+    width: 50%;
+}
+
+.info-req h2{
+    font-size: 2rem;
+    color: #0D9DC4;
+}
+
+.info-req p{
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.info-req h4{
+    margin-top: 1rem;
+    color: #00475a;
+    font-size: 1.5rem;
+}
+
+.info-req ul {
+    list-style-position: inside;
+}
+
+.info-req ol {
+    list-style-position: inside;
+}
+
+.info-req ol li{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+
+}
+
+
+.box-req .req-videos {
+    width: 50%;
+}
+
+.req-videos .box-video {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2rem 0;
+}
