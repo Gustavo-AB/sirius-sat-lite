@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-/* @media screen and (max-width: 460px){
+@media screen and (max-width: 660px){
   * {
     overflow-x: hidden;
   }
-} */
+}
 
 html {
   width: 100%;
