@@ -19,7 +19,8 @@
     flex:  2 3 20rem;
     padding: 2rem;
     background-color: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;}
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
 
 .card .img-card{
     margin: auto;
@@ -56,5 +57,18 @@
     display: inline; 
 }
 
+@media screen and (max-width: 1090px){
+    .box-cards {
+        justify-content: center;
+    }
+
+    .box-cards .card {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        flex:  3 3 15rem;
+    }
+}
 
 

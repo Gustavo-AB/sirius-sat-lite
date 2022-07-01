@@ -15,7 +15,7 @@
 }
 
 .banner h2{
-    display: block;
+    display: inline;
     width: 100%;
     font-size: 3rem;
     color: #0095be;
@@ -34,13 +34,13 @@
     content: '';
     display: block;
     width: 20rem;
-    height: 2px;
+    height: 3px;
     margin: 0.7rem auto;
     background-color: #0095be;
 }
 
 .banner-content{
-    width: 70rem;
+    width: 100%;
 }
 
 .banner-content p{
@@ -49,7 +49,7 @@
 }
 
 .banner-content #button {
-    width: 30rem;
+    width: 100%;
     max-height: 6rem;
     padding: 3rem 0;
     margin: 2rem auto;
