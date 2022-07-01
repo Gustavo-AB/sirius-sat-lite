@@ -222,6 +222,12 @@ main {
   width: 100%;
 }
 
+@media screen and (max-width: 600px){
+  .details {
+      overflow-x: visible;
+  }
+}
+
 .details .item-desc {
   margin: 0.5rem auto;
   width: 100%;
