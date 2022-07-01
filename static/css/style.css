@@ -11,14 +11,15 @@ html{
 
 body {
     font-family: 'Raleway', sans-serif;
-    width: 100vw;
-    max-width: 100%;
+    min-width: 100%;
     height: 100vh;
     font-size: 0.95rem;
     color: #696969;
     background-color: #ffffff;
 
 }
+
+
 
 .divider {
     display: block;
@@ -58,6 +59,8 @@ header {
 main {
     width: 100%;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-banner {
@@ -147,7 +150,7 @@ main {
 }
 
 .texts .text-info > p#price{
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 0.2rem;
