@@ -1,5 +1,4 @@
 .banner {
-    margin-top: 2rem;
     margin-bottom: 2rem;
     width: 100%;
     display: flex;
@@ -39,6 +38,34 @@
     background-color: #0095be;
 }
 
+@media screen and (max-width: 400px){
+    .banner h2{
+        display: inline;
+        width: 100%;
+        font-size: 2.5rem;
+        color: #0095be;
+    }
+
+    .banner h2::before {
+        content: '';
+        display: block;
+        width: 10rem;
+        height: 3px;
+        margin: auto;
+        background-color: #0095be;
+    }
+
+    .banner h2::after {
+        content: '';
+        display: block;
+        width: 10rem;
+        height: 3px;
+        margin: 0.7rem auto;
+        background-color: #0095be;
+    }
+       
+}
+
 .banner-content{
     width: 100%;
 }
@@ -70,7 +97,7 @@
 
 @media screen and (max-width: 600px){
     .banner-content #button {
-        width: 20rem;
+        width: 15rem;
         overflow-x: visible;
     }
 }

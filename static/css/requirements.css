@@ -3,12 +3,15 @@
     margin-bottom: 5rem;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 0 1rem;
 }
 
 .box-req .info-req{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+
     flex-direction: column;
 }
 
@@ -16,6 +19,7 @@
     margin: 1rem 0;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -28,11 +32,6 @@
 .info-req p{
     margin: 1rem 0;
     font-size: 1rem;
-}
-
-.info-req h4{
-    color: #0D9DC4;
-    font-size: 1.5rem;
 }
 
 .info-req ul {
@@ -51,6 +50,7 @@
 .text-req {
     width: 50%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -58,9 +58,27 @@
 .video-req {
     width: 50%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
 }
 
+@media screen and (max-width: 770px){
+    .text-req {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .video-req {
+        margin-top: 1rem;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;    
+    }
+}
 .video {
     width: 35rem;
 }
