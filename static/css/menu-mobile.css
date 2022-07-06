@@ -5,6 +5,7 @@
     position: fixed;
     left: 50%;
     visibility: hidden;
+
 }
 
 .menu-mobile.activate {
@@ -14,4 +15,9 @@
     position: fixed;
     left: 50%;
     visibility: visible;
+}
+
+.menu-mobile img {
+    visibility: hidden;
+    width: 2px;
 }

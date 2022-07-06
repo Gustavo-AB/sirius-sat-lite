@@ -286,10 +286,25 @@ main {
 
 .whatsapp-button {
   position: fixed;
+  display: flex;
   border: none;
   background-color: #0095be00;
   top: 90%;
   left: 95%;
+}
+
+@media screen and (max-width: 1100px){
+  .whatsapp-button {
+    top: 90%;
+    left: 90%;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .whatsapp-button {
+    top: 87%;
+    left: 83%;
+  }
 }
 
 .whatsapp-button a img {

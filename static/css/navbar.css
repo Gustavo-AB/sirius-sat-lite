@@ -43,7 +43,12 @@ nav ul li a:hover {
 @media screen and (max-width: 864px) {
   nav > button {
     display: block;
+    background-color: rgba(0, 200, 255, 0);
+    border: none;
   }
+
+  
+
 
   nav ul {
     flex-direction: column;
