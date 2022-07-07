@@ -43,6 +43,7 @@
     color: #0095be;
     font-weight: 600;
     transition: color 0.2s;
+    display: block;
 }
    
 .links a{
